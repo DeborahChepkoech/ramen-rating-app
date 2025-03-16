@@ -20,7 +20,6 @@ function displayRamens() {
         img.alt = ramen.name;
         img.style.width = "100px"; 
         img.style.height = "100px";
-        console.log("Adding ramen:", ramen);
         img.addEventListener("click", () => handleClick(ramen));
         ramenMenu.appendChild(img);
     });
